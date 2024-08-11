@@ -1,7 +1,7 @@
-// index.js
-
 const inquirer = require("inquirer");
 const queries = require("./queries");
+require("dotenv").config();
+
 
 const mainMenu = async () => {
   const { action } = await inquirer.prompt({
