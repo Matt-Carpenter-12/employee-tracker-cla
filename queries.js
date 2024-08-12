@@ -1,6 +1,6 @@
-
-const { Pool } = require("pg");
-const pool = new Pool();
+const pool = require("./db");
+// const { Pool } = require("pg");
+// const pool = new Pool();
 
 // Get all departments
 const getAllDepartments = async () => {

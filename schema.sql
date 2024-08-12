@@ -1,4 +1,6 @@
 -- schema.sql
+CREATE DATABASE employee_tracker;
+use employee_tracker;
 
 CREATE TABLE department (
   id SERIAL PRIMARY KEY,
